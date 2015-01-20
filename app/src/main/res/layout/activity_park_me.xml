@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <include layout="@layout/custom_action_bar"/>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/normal_color">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/parking_at"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:id="@+id/parkingAtLabelTextView"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="30dp"
+            android:id="@+id/parkingAtTextView"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/map"
+    tools:context="com.androidproject.parkassist.ParkMe"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_weight="2"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/park_me"
+        android:id="@+id/parkButton"
+        android:textSize="20dp"
+
+        android:layout_gravity="center_horizontal" />
+
+    <include layout="@layout/menu_bar"/>
+</LinearLayout>

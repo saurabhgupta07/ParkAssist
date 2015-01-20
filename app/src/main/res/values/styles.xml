@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="ParkAssistAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+
+</resources>

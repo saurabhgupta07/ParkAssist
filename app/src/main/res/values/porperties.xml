@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="radius">5</integer>
+    <item name="selected_color" type="color">#000000</item>
+    <item name="normal_color" type="color">#ffffff</item>
+</resources>

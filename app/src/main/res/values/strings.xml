@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ParkAssist</string>
+    <string name="title_activity_maps">ParkAssist</string>
+    <string name="url">https://api.streetline.com/parkerdata/v1/ParkingDestinations.xml?Key=9BB76DCC55F77</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_parking_information">ParkingInformation</string>
+    <string name="parking_rates">Parking Rates</string>
+    <string name="parking_lot_capacity">Parking Lot Capacity</string>
+    <string name="default_parking_info">No information provided</string>
+    <string name="title_part1">Park</string>
+    <string name="title_part2">Assist</string>
+    <string name="title_activity_park_me">ParkMe</string>
+    <string name="parking_at">Parking at location: </string>
+    <string name="park_me">Park Me</string>
+    <string name="done_parking">Done Parking</string>
+    <string name="confirm_parking">Confirm Parking Location At</string>
+    <string name="parkedAtLocation">Parked at Location</string>
+    <string name="title_activity_set_timer">SetTimer</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="title_activity_walking_directions">WalkingDirections</string>
+    <string name="title_activity_gararges">GarageMap</string>
+    <string name="places_api">https://maps.googleapis.com/maps/api/place/nearbysearch/json?</string>
+    <string name="places_api_key">AIzaSyAgZe9zwk-Ydp1ww0B-JNNqft_gcpQhsvg</string>
+</resources>

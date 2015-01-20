@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#3B5998"
+    android:elevation="4dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/appIconImageView"
+        android:src="@drawable/parkassist_icon"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title_part1"
+        android:textColor="#ffffff"
+        android:textSize="38dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+
+        android:id="@+id/titleTextView"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title_part2"
+        android:textSize="39dp"
+        android:textStyle="bold"
+        android:layout_weight="3"
+        android:id="@+id/titleTextView2"
+        />
+
+
+</LinearLayout>
